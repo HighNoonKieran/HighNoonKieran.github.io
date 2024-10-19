@@ -4,22 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link href="./css/main.css" rel="stylesheet" >
 </head>
-<body>
-    <header> 
+<body> 
+    <header> <!--Contains the title and links to other pages-->
         <h1><strong>HighNoonKieran's Portfolio</strong></h1>
+            <a href="./about/">
+                | About Me |
+            </a>
+            <a href="./projects/">
+                Projects |
+            </a>
+            <a href="./contact/">
+                Contact |
+            </a>
     </header>
-    <img src="HNK-Logo.png" height="100" width="150" alt="A blue and green logo that says HNK">
+    <img src="HNK-Logo.png" height="150" width="200" alt="A blue and green logo that says HNK"> <!---My logo made in Visual Design class-->
 
     <main>
-        <section> 
+        <section> <!---Intro to me and my website-->
 <h2>Welcome to my Portfolio</h2>
             <p>My name is Kieran Bunse, but I also go by "HighNoonKieran"</p>
-            <p>I am a Graphic Design student but also developing skills in code, photography and video editing</p>
+            <p>I am a Graphic Design student at SAIT but also developing skills in code, photography and video editing</p>
         </section>
-        <section>
-            <h2>Skills</h2>
-            <table>
+        <section> <!---A table of my skills-->
+            <h3>Skills</h3>
+            <table class="center">
                     <thead>
                         <tr>
                             <th>Graphic Design</th>
@@ -54,17 +64,9 @@
                     </tbody>
             </table>
         </section>
-        <section>
-            <a href="./about/">
-                | About Me |
-            </a>
-            <a href="./projects/">
-                Projects |
-            </a>
-            <a href="./contact/">
-                Contact |
-            </a>
-        </section>
     </main>
+    <footer>
+        <p>&copy Kieran Bunse 2024</p>
+    </footer>
 </body>
 </html>
