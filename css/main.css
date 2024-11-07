@@ -1,10 +1,114 @@
-header { 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+header {
     text-align:center;
+    background: darkgreen;
+    padding: 20px 0; 
+}
+/* For the Nav on the home page */
+nav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+nav a {
+    display:block;
+    border-radius: 5px;
+    color: skyblue;
+    padding: 1em;
+    text-decoration: none;
+} 
+nav a:hover {
+    background-color: green; 
+    
+}
+/* Provides a background to images, excluding the projects page */
+figure {
+    border-radius: 2rem; 
+    box-shadow: 0.5px 0.5px 0.5px black;
+    padding: 0.5rem 0.5rem; 
+    margin: auto; 
+    background-color: white;
+}
+ figure figcaption {
+    color:darkblue;
+    font-size: 75%;
+}
+img {
+    display:grid;
+    border-radius: 25px;
+    height: auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+}
+h1 {
+    color: darkblue;
+    font-family: "Anton", serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+    color: blue;
 }
 body {
     text-align:center;
+    background-color: lightgreen;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 1.3rem;
 }
+/* Centers the table on homepage */
 .center {
     margin-left: auto;
     margin-right: auto;
+    list-style-position: inside;
   }
+  main-img {
+    max-width: 100%;
+  }
+    footer{
+        max-height: 100px;
+        padding: 10px 0; 
+        background-color: darkgreen;
+        color: darkblue; 
+    }
+    /* Gives division in pages */ 
+    aside {
+        border-radius: 0.5px;
+        background: white;
+        padding: 0.2px;
+        margin: 1em; 
+    }
+    thead {
+        background-color: lightgreen;
+    }
+    .anton-regular {
+        font-family: "Anton", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .biography {
+        background-color: lightblue;
+      }
+      .bio {
+        background-color: blue;
+      }
+      .bio h1 {
+        color: lightgreen;
+      }
+      .foot {
+        background-color: blue;
+      }
+      .foot p {
+        color: lightgreen;
+      }
+      
