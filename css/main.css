@@ -19,7 +19,7 @@ nav {
 nav a {
     display:block;
     border-radius: 5px;
-    color: skyblue;
+    color: white;
     padding: 1em;
     text-decoration: none;
 } 
@@ -111,4 +111,4 @@ body {
       .foot p {
         color: lightgreen;
       }
-      
+     
