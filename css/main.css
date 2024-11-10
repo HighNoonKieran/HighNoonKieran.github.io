@@ -5,7 +5,7 @@ header {
     background: darkgreen;
     padding: 20px 0; 
 }
-/* For the Nav on the home page */
+/* For the Navs */
 nav {
   position: sticky;
   top: 0;
@@ -38,11 +38,11 @@ figure {
     color:darkblue;
     font-size: 75%;
 }
-img {
-    display:grid;
-    border-radius: 25px;
+img {  /* projects page images */
+    display: grid;
+    border-radius: 35px;
     height: auto;
-    width: 300px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding: 5px 5px;
@@ -54,7 +54,7 @@ h1 {
   font-style: normal;
 }
 h2 {
-    color: blue;
+    color: mediumblue;
 }
 body {
     text-align:center;
@@ -117,4 +117,10 @@ body {
       .foot p {
         color: lightgreen;
       }
-     
+
+      
+      @media (max-width: 500px){
+        .container {
+            flex-direction: column;
+        }
+    } 
