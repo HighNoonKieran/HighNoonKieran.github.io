@@ -42,7 +42,7 @@ img {  /* projects page images */
     display: grid;
     border-radius: 35px;
     height: auto;
-    width: 600px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     padding: 5px 5px;
@@ -81,6 +81,10 @@ body {
         background-color: darkgreen;
         color: darkblue; 
     }
+    .logo {
+      width: 300px;
+      height: auto;
+    }
     /* Gives division in pages */ 
     .games {
         border-radius: 0.5px;
@@ -96,8 +100,8 @@ body {
   }
     thead {
         background-color: lightgreen;
-    } /* Adds the title font */
-    .anton-regular {
+    } 
+    .anton-regular { /* Adds the title font */
         font-family: "Anton", serif;
         font-weight: 400;
         font-style: normal;
@@ -117,10 +121,13 @@ body {
       .foot p {
         color: lightgreen;
       }
-
-      
-      @media (max-width: 500px){
-        .container {
-            flex-direction: column;
+      @media only screen and (min-width: 769px) {
+        .Pics {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
         }
-    } 
+        .container {
+          display:grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        }
