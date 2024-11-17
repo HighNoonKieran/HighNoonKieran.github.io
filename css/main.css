@@ -54,7 +54,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
-h2 {
+h2, button{
     color: mediumblue;
     font-family: "Anton", serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: normal;
@@ -64,6 +64,7 @@ table, th, td {
   background-color: darkgreen;
   color: white;
 }
+
 body { /* Changes the background colour and formatting */
     text-align:center;
     background-color: lightgreen; 
