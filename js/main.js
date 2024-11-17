@@ -15,7 +15,7 @@ else
 //adds a button that displays an alert
     const btn = document.getElementById("btn-alert");
 btn.addEventListener("click", () => {
-    alert ('Please do not no that again!')
+    alert ('Please do not do that again!')
 });
 btn.addEventListener("mouseout", function(){
     btn.textContent = "Don't Click Me"
@@ -24,13 +24,14 @@ btn.addEventListener("mouseover", function(){
     this.textContent = "Wait, no. Stay away from me!"
 })
 
+//for loop ;( 
 for (let i = 1; i <= 12; i++) {
     const li = document.createElement("li");
    if (i % 2 === 0) {
-      li.textContent = " even";
+      li.textContent = "Even";
     }
     else {
-      li.textContent = " odd";
+      li.textContent = "Odd";
     }
     document.getElementById(`loop`).appendChild(li);
   }
