@@ -1,3 +1,6 @@
+//console log test
+console.log(`Hello world!`);
+
 //dynamic year
 const fYear = document.getElementById("footerY");
 const d = new Date(); 
@@ -5,12 +8,23 @@ fYear.textContent = d.getFullYear();
 
 const greets = document.getElementById("welcome");
  
-if (d.getHours() < 12) //dispaly message according to time of day
-    greets.innerHTML = 'Good Morning,';
+if (d.getHours() < 12) //display message according to time of day
+    greets.innerHTML = 'Good Morning,',
+    greets.style.backgroundColor = 'yellow';
 else if (12 < d.getHours() <= 17) 
-    greets.innerHTML = 'Good Afternoon,';
+    greets.innerHTML = 'Good Afternoon,',
+greets.style.backgroundColor = 'orange';
 else
-    greets.innerHTML = 'Good Evening,';
+    greets.innerHTML = 'Good Evening,',
+    greets.style.backgroundColor = 'red';
+
+    //add console log for date
+    const k = new Date();
+    let yy = k.getFullYear();
+    let dd = k.getDate();
+    let mm = k.getMonth();
+    console.log(`${mm} ${dd}, ${yy}, mm, dd, yyyy.`);
+
 
 //adds a button that displays an alert
     const btn = document.getElementById("btn-alert");
